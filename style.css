@@ -41,9 +41,10 @@ form{
 
 .currency
 {
+    color:white;
     height: 30px;  
     border:none;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px white;
     outline: none;
     background:none; 
     -webkit-appearance: button; 
@@ -97,13 +98,13 @@ form{
 
 .label-name{
     position: absolute;
-    color:black;
+    color:white;
     bottom: 0;
     left: 0;
     width:100%;
     height: 100%;
     pointer-events: none;
-    border-bottom:black solid 2px;
+    border-bottom:white solid 2px;
     
 }
 
