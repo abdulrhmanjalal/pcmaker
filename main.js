@@ -60,7 +60,6 @@ function main(){
         if(fullPrice < 1000000 && currency.value != "currency"){
             priceRange(fullPrice, parts)
             build(postion, fullPrice)
-            body.classList.add("move-right");
         }else{
             if(currency.value != "currency" && fullPrice > 1000000){
                 error(fullPrice, "is so big for a number")
@@ -247,7 +246,9 @@ function build(postion, price){
             
             rows[rows.length - 2].textContent = `Total: ${total} ${currency.value}`
             rows[rows.length - 1].textContent = `Savings: ${ConvertedPrice - total} ${currency.value}`
-            }    
+            }   
+            
+            body.classList.add("move-right");
     }else if(postion == null && !isNaN(price) && price !== ""){
         error(price , "is so low for a pc")
         

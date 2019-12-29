@@ -136,6 +136,7 @@ form{
 .price{
     font-style: italic;
     font-size: 0.9rem;
+    color:rgb(142, 255, 142);
 }
 
 .part{
@@ -149,6 +150,13 @@ form{
     position: absolute;
 }
 
+.total{
+    color:rgb(75, 255, 75);;
+}
+
+.savings{
+    color:rgb(142, 255, 142);;
+}
 
 .checkbox{
     color:white;
@@ -170,6 +178,14 @@ form{
 
 }
 
+.right-section p{
+    margin:2%;
+}
+
+.right-section button{
+    margin:2%;
+}
+
 .left-section{
     position: absolute;  
     display: flex;
@@ -182,5 +198,32 @@ form{
     transform: translateY(0);
 }
 
+.submit{
+    width:100px;
+    height: 40px;
+    background:rgb(9, 141, 9);
+    border:none;
+    outline:none;
+    color:white;
+    cursor: pointer;
+}.submit:hover{
+    background:rgb(6, 90, 6);
+}
+
+.return-button{
+    width:100px;
+    height: 40px;
+    background:rgb(197, 12, 12);
+    border:none;
+    outline:none;
+    color:white;
+    cursor: pointer;
+}.return-button:hover{
+    background:rgb(117, 8, 8);
+}
+
+i{
+    margin:3%;
+}
 .move-right{transform: translateX(-100vw);}
 .return-left{transform: translateX(0);}
