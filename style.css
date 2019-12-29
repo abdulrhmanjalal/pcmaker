@@ -12,6 +12,10 @@ body{
 }
 
 
+
+h1{
+    color:white;
+}
 form{   
     margin:auto;
     display: flex;
@@ -147,6 +151,7 @@ form{
 
 
 .checkbox{
+    color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
