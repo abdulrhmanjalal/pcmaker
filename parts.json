@@ -1,0 +1,378 @@
+{
+    "classes" :[
+         {
+             "partclass":"Monstrous",
+             "pricerange":3797,
+             "supported":true,
+             "stage": "A"
+         },
+         {
+             "partclass":"Extremist",
+             "pricerange":3187,
+             "supported":true,
+             "stage": "A"
+         },
+         {
+            "partclass":"Enthusiast",
+            "pricerange":2518,
+            "supported":true,
+            "stage": "A"
+            
+        },
+        {
+            "partclass":"Exceptional",
+            "pricerange":1738,
+            "supported":true,
+            "stage": "B"
+        },
+        {
+            "partclass":"Outstanding",
+            "pricerange":1388,
+            "supported":true,
+            "stage": "B"
+        },
+        {
+            "partclass":"Excellent",
+            "pricerange":1122,
+            "supported":true,
+            "stage": "B"
+        },
+        {
+           "partclass":"Superb",
+           "pricerange":1094,
+           "supported":true,
+           "stage": "B"
+       },
+       {
+           "partclass":"Great",
+           "pricerange":985,
+           "supported":true,
+           "stage": "B"
+       } ,
+       {
+           "partclass":"Very good",
+           "pricerange":765,
+           "supported":true,
+           "stage": "C"
+       },{
+           "partclass":"Good",
+           "pricerange":603,
+           "supported":true,
+           "stage": "C"
+       },
+       {
+           "partclass":"Fair",
+           "pricerange":522,
+           "supported":true,
+           "stage": "C"
+       },
+       {
+          "partclass":"Modest",
+          "pricerange":494,
+          "supported":true,
+          "stage": "F"
+      },
+      {
+          "partclass":"Entry",
+          "pricerange":454,
+          "supported":true,
+           "stage": "F"
+      },
+      {
+          "partclass":"Poor",
+          "pricerange":293,
+          "supported":true,
+          "stage": "F"
+      },
+      {
+          "partclass":"Destitute",
+          "pricerange":226,
+          "supported":true,
+          "stage": "F"
+      }                       
+    ],
+
+    "CPUs" : [
+        {
+           "name": "Intel Core i9-9900K",
+           "socket": "1151",
+           "TDP": 95,
+           "frequency":[3.6 ,5.0],
+           "cores/threads":[8 ,16],
+           "price":489.99,
+           "GPU":{
+               "name":"Intel's UHD Graphics 630",
+               "gaming":false
+           }
+        },
+        {
+           "name": "Intel Core i7-9700K",
+           "socket": "1151",
+           "TDP": 65,
+           "frequency":[3.6 ,4.9],
+           "cores/threads":[8 ,8],
+           "price":390.99,
+           "GPU":{
+               "name":"Intel's UHD Graphics 630",
+               "gaming":false
+           }
+        },
+        {
+            "name": "AMD Ryzen 9 3950X",
+            "socket": ["AM4", "3rd"],
+            "TDP": 105,
+            "frequency":[3.5 ,4.7],
+            "cores/threads":[16 ,32],
+            "price":749.99,
+            "GPU":null
+         },
+         {
+            "name": "AMD Ryzen 7 3700X",
+            "socket": ["AM4", "3rd"],
+            "TDP": 65,
+            "frequency":[3.6 ,4.4],
+            "cores/threads":[8 ,16],
+            "price":309.99,
+            "GPU":null
+         },
+         {
+            "name": "AMD Ryzen 5 3600X",
+            "socket": ["AM4", "3rd"],
+            "TDP": 95,
+            "frequency":[3.8 ,4.4],
+            "cores/threads":[6 ,12],
+            "price":199.99,
+            "GPU":null
+         },
+         {
+            "name": "AMD Ryzen 5 2400G",
+            "socket": ["AM4", "2nd"],
+            "TDP": 65,
+            "frequency":[3.6 ,3.9],
+            "cores/threads":[4 ,8],
+            "price":148.98,
+            "GPU":{
+                "name":"Radeon RX Vega 11 Graphics",
+                "gaming":true
+            }
+         },
+         {
+            "name": "AMD Ryzen 3 2200G",
+            "socket": ["AM4", "2nd"],
+            "TDP": 65,
+            "frequency":[3.5 ,3.7],
+            "cores/threads":[4 ,4],
+            "price":77.98,
+            "GPU":{
+                "name":"Radeon Vega 8 Graphics",
+                "gaming":true
+            }
+         }
+         
+    ],
+
+    "MOBOs": [
+        {
+            "name":"MSI Prestige X570 CREATION (E-ATX)",
+            "socket":["AM4", "3rd"],
+            "price":499.99
+        },
+        {
+            "name":"ASUS ROG X570 Crosshair VIII Hero (ATX)",
+            "socket":["AM4", "3rd"],
+            "price":359.99
+        },
+        {
+            "name":"ASRock X570 Taichi (ATX)",
+            "socket":["AM4", "3rd"],
+            "price":237.13
+        },
+        {
+            "name":"Gigabyte X570 Aorus Elite (ATX)",
+            "socket":["AM4", "3rd"],
+            "price":189.99
+        },
+        {
+            "name":"MSI B450 Tomahawk MAX (ATX)",
+            "socket":["AM4", "3rd"],
+            "price":114.95
+        },
+        {
+            "name":"Asrock B450M-HDV (MATX)",
+            "socket":["AM4", "2nd"],
+            "price":59.99
+        },
+        {
+            "name":"GIGABYTE Z390 AORUS Ultra (ATX)",
+            "socket":"1151",
+            "price":219.99
+        }
+    ],
+    "GPUs": [
+        {
+            "name":"AMD Radeon RX 5700",
+            "memory":{
+                "capcity":8,
+                "type":"GDDR6"
+            },
+            "tdp":180,
+            "price":339.99
+        },
+        {
+            "name":"Nvidia GeForce RTX 2080 Ti",
+            "memory":{
+                "capcity":11,
+                "type":"GDDR6"
+            },
+            "tdp":250,
+            "price":1199.99
+        },
+        {
+            "name":"Nvidia GeForce RTX 2070 Super",
+            "memory":{
+                "capcity":8,
+                "type":"GDDR6"
+            },
+            "tdp":215,
+            "price":499.99
+        },
+        {
+            "name":"Nvidia GeForce GTX 1660 Super",
+            "memory":{
+                "capcity":6,
+                "type":"GDDR6"
+            },
+            "tdp":125,
+            "price":229.99
+        },
+        {
+            "name":"Nvidia GeForce RTX 2080 Super",
+            "memory":{
+                "capcity":8,
+                "type":"GDDR6"
+            },
+            "tdp":250,
+            "price":699.99
+        },
+        {
+            "name":"Zotac GeForce GTX 1080 Ti Mini",
+            "memory":{
+                "capcity":11,
+                "type":"GDDR5X"
+            },
+            "tdp":250,
+            "price":664.33
+        },
+        {
+            "name":"MSI Gaming Armor Edition Radeon RX 570",
+            "memory":{
+                "capcity":8,
+                "type":"GDDR5"
+            },
+            "tdp":150,
+            "price":199.99
+        },
+        {
+            "name":"Gigabyte GeForce GTX 1650 Super",
+            "memory":{
+                "capcity":4,
+                "type":"GDDR6"
+            },
+            "tdp":100,
+            "price":169.99
+        },
+        {
+            "name":"EVGA GeForce RTX 2060 Super SC Ultra Gaming",
+            "memory":{
+                "capcity":8,
+                "type":"GDDR6"
+            },
+            "tdp":155,
+            "price":419.99
+        }
+    ],
+
+    "RAM":[
+        {
+            "name":"Corsair Vengeance LPX 8GB (1 x 8GB) DDR4 DRAM 2400MHz",
+            "price":34.93,
+            "speed":2400,
+            "size":8
+        },
+        {
+            "name":"Corsair Vengeance LPX 8GB (1 X 8GB) DDR4 DRAM 3000MHz",
+            "price":39.18,
+            "speed":3000,
+            "size":8
+        },
+        {
+            "name":"Crucial Ballistix Sport LT 8GB (1 X 8GB) 3000 MHz DDR4 DRAM",
+            "price":36.18,
+            "speed":3000,
+            "size":8
+        },
+        {
+            "name":"HyperX Fury 16GB 3200MHz DDR4",
+            "price":98.99,
+            "speed":3200,
+            "size":16
+        },
+        {
+            "name":"Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 2666MHz",
+            "price":59.18,
+            "speed":2666,
+            "size":16
+        },
+        {
+            "name":"Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3000MHz",
+            "price":74.99,
+            "speed":3000,
+            "size":16
+        },
+        {
+            "name":"TEAMGROUP T-Force Delta RGB DDR4 32GB (2x16GB) 3000MHz ",
+            "price":154.99,
+            "speed":3000,
+            "size":32
+        },
+        {
+            "name":"Corsair LPX 32GB DRAM (2x16GB) 3000MHz",
+            "price":119.99,
+            "speed":3000,
+            "size":32
+        },
+        {
+            "name":"Corsair Vengeance LPX 32GB (2x16GB) DDR4 2400",
+            "price":109.99,
+            "speed":2400,
+            "size":32
+        }
+    ],
+    
+    "WifiBuletooth": [
+        {
+            "name":"Ubit Gigabit AC 1730Mbps Bluetooth 5.0 Wireless WiFi Card",
+            "speed":"1430",
+            "price":36.95       
+        },
+        {
+            "name":"TP-Link AC1300 PCIe Wireless Wifi PCIe Card",
+            "speed":"867",
+            "price":34.99
+
+        },
+        {
+            "name":"ASUS PCE-AC56 PCI Wireless Express Adapter",
+            "speed":"867",
+            "price":58.99
+
+        },
+        {
+            "name":"USB 600M WiFi Bluetooth Adapter",
+            "speed":"433",
+            "price":15.99
+
+        }
+    ]
+    
+}

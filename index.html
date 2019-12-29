@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park:400,400i,700&display=swap" rel="stylesheet">
+    <title>PC Maker</title>
+</head>
+<body class="">
+    <div class="left-section">
+        <form id="form">
+            <div class="row1">
+                <div class="input-section">
+                    <input type="text" name="price" id="price" autocomplete="off" required>
+                    <label for="price" class="label-name">
+                        <span class="name-content">
+                            Price:
+                        </span>
+                    </label>
+                </div>
+                
+                <div class="option-section">
+                    <select name="currency" id="currency" class="currency">
+                        <option value="currency" disabled selected>Currency</option>
+                        <option value="USD">USD</option>
+                        <option value="SAR">SAR</option>
+                        <option value="EGP">EGP</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>      
+            </div>
+            
+    
+    
+            <div class="checkbox">
+                <input type="checkbox" name="wifi&bluetooth " id="wifibluetooth">
+                <label for="wifi&bluetooth ">inculed wifi and blutooth card</label>
+            </div>
+            
+            <input type="submit" value="Submit">
+            <p id="error"></p>
+        </form>    
+    </div>
+
+    
+
+
+    <div class="right-section">
+        <div class="results">
+            <p class="rows CPU"></p>
+            <p class="rows MOBO"></p>
+            <p class="rows GPU"></p>
+            <p class="rows storage"></p>
+            <p class="rows RAM"></p>
+            <p class="rows PSU"></p>
+            <p class="rows WIFI"></p>
+            <p class="rows total"></p>
+            <p class="rows savings"></p>
+            <button class="return-button">return</button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

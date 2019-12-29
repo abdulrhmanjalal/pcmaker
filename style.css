@@ -1,0 +1,180 @@
+body{
+    background: linear-gradient(6deg, rgba(2,0,36,1) 0%, rgba(31,66,184,1) 0%, rgba(0,0,0,1) 0%, rgba(46,46,46,1) 100%);
+    width:100vw;
+    height: 100vh;
+    transition:0.3s ease all;
+    overflow: hidden;
+}
+
+*{
+    margin:0;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+
+form{   
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    color:black;
+}
+
+.row1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* checkbox customaization */
+
+
+
+/* option customaization */
+
+.option-section{
+    margin:5%;
+}
+
+.currency
+{
+    height: 30px;  
+    border:none;
+    border-bottom: solid 2px black;
+    outline: none;
+    background:none; 
+    -webkit-appearance: button; 
+}
+
+.currency:focus{
+    color:#1db7ff;
+    border-color: #1db7ff;
+}
+
+.currency option{
+    background:#1db7ff;
+    color:white;
+}
+
+.currency option:disabled{
+    color:lightgray;
+}
+
+
+/* input customaization */
+
+.input-section{
+    position: relative;
+    margin:5%;
+    overflow: hidden;
+}
+
+#price{
+    color:white;
+    width:300px;
+    height: 30px;
+    padding-top: 25px;
+    border:none;
+    outline: none;
+    background:transparent;
+}
+
+#price:focus + .label-name .name-content,
+#price:valid + .label-name .name-content{
+    transform: translateY(-160%);
+    font-size: 14px;
+    color:#1db7ff;
+}
+
+#price:focus + .label-name::after,
+#price:valid + .label-name::after{
+    transform: translateX(0%);
+}
+
+
+.label-name{
+    position: absolute;
+    color:black;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom:black solid 2px;
+    
+}
+
+.label-name::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:-1;
+    bottom:-2px;
+    border-bottom:#1db7ff 3px solid;
+    transform: translateX(-100%);
+    transition:all 0.3s ease;
+}
+
+.name-content{
+    position: absolute;
+    bottom: 5px;
+    left:0;
+    transition:all 0.3s ease;
+}
+
+/* overall customaization */
+
+.price{
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.part{
+    font-weight: bold;
+}
+
+
+.results{
+    padding:auto;
+    color:white;
+    position: absolute;
+}
+
+
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:250px;
+}
+
+.right-section{
+    position: absolute;
+    left:100%;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-section{
+    position: absolute;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: column;
+    width:100vw;
+    height: 100vh;
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+.move-right{transform: translateX(-100vw);}
+.return-left{transform: translateX(0);}
